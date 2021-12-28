@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    margin-top: 30px;
+    
+}
+body{
+    background: #1a2980; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1a2980, #26d0ce); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1a2980, #26d0ce); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.container{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 450px;
+    background-color:;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+button{
+    font-size: 40px;
+    width: 97px;
+    height: 70px;
+    margin: 2px;
+    border:0;
+    background:rgba(255,255,255,0.6);
+    transition: all 0.4s ease-in;
+}
+input{
+    font-size: 40px;
+    border-radius: 0;
+    border: 0;
+    text-align: right;
+    font-family: 'Roboto Condensed',sans-serif;
+    background:rgba(255,255,255,0.6);
+    height: 90px;
+    width: 400px;
+}
+h1{
+    font-size: 80px;
+}
+table{
+    padding-top: 10px;
+    border: black;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: transparent;
+    border: black 1px solid;
+    color: white;
+    
+}
+.resultbtn{
+    width: 399px;
+}
+.calc{
+    margin-top: 2px;
+    height: auto;
+}
